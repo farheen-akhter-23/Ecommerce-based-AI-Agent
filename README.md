@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce App
+# 🛍️ E-Commerce App to display AI recommendations
 
 Welcome to **E-Commerce App**, a modern and user-friendly online shopping platform built with cutting-edge technologies. Whether you're a shopper or a developer, this app provides a seamless experience for browsing, purchasing, and managing products.
 
