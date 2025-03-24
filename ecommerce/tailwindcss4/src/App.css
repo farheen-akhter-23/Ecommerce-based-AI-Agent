@@ -59,7 +59,7 @@
   width: 400px; /* Set a fixed width */
   height: 400px; /* Set a fixed height */
   object-fit: cover; /* Ensure the image covers the entire area without distortion */
-  /* border: 2px solid #000; Add a bold border */
+  /*  border: 2px solid #000; Add a bold border */
   border-radius: 10px; /* Optional: Add rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a bold effect */
   text-align: center !important;

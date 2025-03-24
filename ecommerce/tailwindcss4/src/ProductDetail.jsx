@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Recommendations from "./recommendations";
 
 function ProductDetail() {
   const { id } = useParams(); // Get the product ID from the URL
@@ -17,7 +18,6 @@ function ProductDetail() {
     }
     return sessionId;
   };
-  
   // Track dwell time
   useEffect(() => {
     const startTime = new Date().getTime(); // Record start time
@@ -107,6 +107,8 @@ function ProductDetail() {
         <p className="text-blue-600 font-bold">${product.price}</p>
         <p className="text-gray-600 mt-4">Category: {product.category}</p>
       </div>
+      <p></p>
+      <Recommendations userId={localStorage.getItem("username")} role={localStorage.getItem("role")} />
     </div>
   );
 }

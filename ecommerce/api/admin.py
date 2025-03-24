@@ -1,7 +1,7 @@
 
 
 # Register your models here.
-from .models import Product, UserInteraction
+from .models import Product, UserInteraction, Interaction
 
 from django.contrib import admin
 
@@ -12,3 +12,4 @@ class ProductAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(UserInteraction)
+admin.site.register(Interaction)  # Register the Interaction model

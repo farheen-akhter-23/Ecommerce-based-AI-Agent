@@ -99,6 +99,8 @@ function CardGrid() {
   // Render the product grid
   return (
     <div className="container mx-auto py-12">
+      <h1 className="text-3xl font-bold mb-6">Welcome, {localStorage.getItem("username")}!</h1>
+      <p className="text-gray-600 mb-6">You are logged in as a {localStorage.getItem("role")}.</p>
       <h2 className="text-3xl font-bold text-center mb-8">Our Products</h2>
       <div className="grid grid-cols-1 text-center md:grid-cols-3 gap-6">
         {products.map((product) => (

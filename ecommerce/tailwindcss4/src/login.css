@@ -1,0 +1,130 @@
+/* Overall Page Split */
+.login-page {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Left Half - Branding */
+.login-left {
+  flex: 1;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.branding-image {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 1.5rem;
+}
+
+.branding-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.branding-subtext {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Right Half - Login Form */
+.login-right {
+  background: linear-gradient(to bottom right, #d946ef, #6366f1);
+  color: white;
+  flex: 1;
+  /* background-color: #f9fafb; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.login-card {
+  background-color: white;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 360px;
+}
+
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 1.2rem;
+}
+
+.input-icon-wrapper {
+  position: relative;
+}
+
+.input-icon-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #6b7280;
+  pointer-events: none;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px 10px 38px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-input:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+}
+
+select.form-input {
+  color: #6b7280 !important;
+  appearance: none;
+  background-color: white;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg fill='none' stroke='%236b7280' stroke-width='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px 16px;
+}
+
+/* Button */
+.submit-button {
+  width: 100%;
+  background-color: #7c3aed;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #5b21b6;
+}
+.form-input::placeholder {
+  color: #9ca3af; /* light gray */
+  font-size: 13px;
+}
