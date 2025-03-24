@@ -1,61 +1,65 @@
-# 🛍️ Shopmind AI - AI Agent
-
+ # 🛍️ ShopMind AI
+ 
 <img width="1207" alt="Screenshot 2025-03-23 at 9 06 02 PM" src="https://github.com/user-attachments/assets/a1a2d9e0-5436-4b5a-b8fe-38bbc7a7fcd9" />
 
-
-Welcome to Shopmind AI, a modern and user-friendly online shopping platform built with cutting-edge technologies. Whether you're a shopper or a developer, this app provides a seamless experience for browsing, purchasing, and managing products.
-
----
-
-## 🌟 Features
-
-### For Shoppers
-- **Browse Products**: Explore a wide range of products with detailed descriptions, images, and prices.
-- **Search and Filter**: Easily find products using search and advanced filters (category, price range, ratings, etc.).
-- **User Accounts**: Create an account to save your preferences, track orders, and manage your profile.
-- **Shopping Cart**: Add products to your cart and proceed to checkout.
-- **AI Recommendations**: Get personalized product recommendations based on your browsing and purchase history.
-- **Secure Payments**: Pay securely using integrated payment gateways (e.g., Stripe, PayPal).
-- **Order Tracking**: Track your orders in real-time from purchase to delivery.
-
-### For Admins
-- **Product Management**: Add, update, or remove products from the catalog.
-- **Order Management**: View and manage customer orders.
-- **User Management**: Monitor and manage user accounts.
-- **Analytics Dashboard**: Gain insights into sales, user behavior, and product performance.
+**Smart Shopping Powered by AI**  
+A full-stack e-commerce platform that delivers personalized product recommendations based on user roles (Admin or Customer), built with modern web technologies and AI integration.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Features
 
-### Frontend
-- **React.js**: A JavaScript library for building user interfaces.
-- **Redux**: State management for React applications.
-- **Tailwind CSS**: A utility-first CSS framework for styling.
-- **Axios**: For making HTTP requests to the backend.
-
-### Backend
-- **Django**: A high-level Python web framework.
-- **Django REST Framework (DRF)**: For building RESTful APIs.
-- **PostgreSQL**: A powerful relational database for storing app data.
-- **Celery**: For asynchronous task processing (e.g., sending emails).
-- **Redis**: For caching and task queue management.
-
-### AI/ML
-- **Scikit-learn**: For building recommendation algorithms.
-- **TensorFlow/PyTorch**: For advanced machine learning models.
-
-### Deployment
-- **Docker**: For containerizing the application.
-- **Nginx**: As a reverse proxy server.
-- **AWS/GCP**: For cloud hosting and deployment.
+- 🔐 Role-based login system (Admin / Customer)
+- 🎯 Personalized product recommendations powered by AI
+- 🛒 All Products and Individual Product pages
+- ⚙️ Clean, responsive UI using Tailwind CSS
+- 🧠 Intelligent recommendation logic for enhanced user experience
 
 ---
 
-## 🚀 Getting Started
+## 🧰 Tech Stack
 
-### Prerequisites
-- Python 3.8+
-- Node.js 14+
-- PostgreSQL
-- Redis
+- **Frontend**: React.js
+- **Backend**: Django (Python)
+- **Database**: PostgreSQL
+- **Styling**: Tailwind CSS
+- **AI Layer**: Custom-built recommendation logic
+
+---
+
+## 🎥 Demo
+
+📽️ Watch the full walkthrough here:  
+[👉 Loom Video Demo](https://www.loom.com/share/c4469687ad7c403b815d4469a6352058?sid=211f78ed-57d2-4984-be7b-ca648f0dde38)
+
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/shopmind-ai.git
+cd shopmind-ai
+```
+2. ** 🧩 Backend Setup (Django):**
+   
+
+
+```bash
+cd ecommerce
+python3 -m venv venv
+source venv/bin/activate
+python manage.py migrate
+python manage.py runserver
+```
+3. ** Frontend setup (ReactJS):**
+   
+``` bash
+cd tailwind
+npm install
+npm start
+```
+### 💡 Note: Make sure both frontend and backend are running on compatible ports. Update API URLs in the frontend if needed.
+
