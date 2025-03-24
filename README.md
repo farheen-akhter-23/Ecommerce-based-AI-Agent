@@ -1,5 +1,8 @@
 # 🛍️ E-Commerce App to display AI recommendations
 
+<img width="1207" alt="Screenshot 2025-03-23 at 9 06 02 PM" src="https://github.com/user-attachments/assets/a1a2d9e0-5436-4b5a-b8fe-38bbc7a7fcd9" />
+
+
 Welcome to **E-Commerce App**, a modern and user-friendly online shopping platform built with cutting-edge technologies. Whether you're a shopper or a developer, this app provides a seamless experience for browsing, purchasing, and managing products.
 
 ---
