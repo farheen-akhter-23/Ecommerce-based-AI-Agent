@@ -40,8 +40,8 @@ A full-stack e-commerce platform that delivers personalized product recommendati
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/shopmind-ai.git
-cd shopmind-ai
+git clone [https://github.com/farheen-akhter-23/Ecommerce-based-AI-Agent.git]
+cd ecommerce
 ```
 2. ** 🧩 Backend Setup (Django):**
    
