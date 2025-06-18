@@ -57,9 +57,9 @@ python manage.py runserver
 3. ** Frontend setup (ReactJS):**
    
 ``` bash
-cd tailwind
+cd tailwindcss4
 npm install
-npm start
+npm run dev
 ```
 ### 💡 Note: Make sure both frontend and backend are running on compatible ports. Update API URLs in the frontend if needed.
 
